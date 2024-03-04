@@ -1,0 +1,122 @@
+/*Dashboard styling Aathif*/
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+	background-color: #f2f2f2; /* Added */
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.navigation {
+    width: 15%;
+    height: 100%;
+    background-color: #888;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 20%;
+    padding: 0 150px 0 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.nav-item a:hover {
+    color: #CCC;
+}
+
+.dashboard {
+    padding: 20px;
+    height: 100%;
+    flex-grow: 1;
+	margin-left: 50px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+	width: 300px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+}
+
+input[type="reset"],
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 8px 15px;
+	border: none;
+	cursor: pointer;
+	border-radius: 2px;
+	margin-left: 10px;
+}
+
+.edit-buttons {
+	margin-left: 125px;
+}
+
+.security-buttons {
+	margin-left:83px
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background-color: #555;
+}
+
+.security {
+	margin-top: 50px;
+}
+
+.profile {
+	
+}

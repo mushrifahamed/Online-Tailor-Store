@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login page</title>	
+	<link rel="stylesheet" href="styles/LoginPageStyle.css">
+	<script src="https://fontawesome.com/icons/bars?f=classic&s=solid"> </script>
+</head>
+<body>
+	<header>
+		<div class="header-content">
+			<div class="logo"><a href = "index.html">
+				<img src="img/logo.jpeg" alt="img"></a>
+			</div>
+			<div class="nav-links">
+			</div>
+			<div class ="content">
+				<h1> CUSTOM &amp; <br><span>READYMADE</span><br>SUITS </h1>
+				<p class ="par">Discover the convenience and luxury of custom tailoring without leaving your home.<br> Shop with us today and elevate your wardrobe with clothing<br>that is made exclusively for you.
+			</div>
+		</div>
+	</header>
+	
+	<section>
+		<div class="form-box">
+			<div class="form-value">
+				<form method="post" action="php/signin.php">
+					<h2>Login.</h2>
+					<div class="inputbox">
+						<ion-icon name="mail-outline"></ion-icon>
+						<input type="email" name="email" required>
+						<label for="">Email</label>
+					</div>
+					<div class="inputbox">
+						<ion-icon name="lock-closed-outline"></ion-icon>
+						<input type="password" name="password" required>
+						<label for="">Password</label>
+					</div>
+					<div class="forget">
+						<label for=""><input type="checkbox">Remember Me <a href="#">Forget Password</a></label>
+					</div>
+					<div class="button">
+						<button type="submit">Log in</button>
+					</div>
+					<div class="register">
+						<p>Doesn't have an Account? <a href="Create_Account.html">Register</a></p>
+						<div class="icon">
+							<a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+							<a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+							<a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+							<a href="#"><ion-icon name="logo-google"></ion-icon></a>
+							<a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+						</div>
+					</div>
+				</form>	
+			</div>
+		</div>
+	</section>
+	
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

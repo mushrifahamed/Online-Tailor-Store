@@ -1,0 +1,280 @@
+/*Contact Us page - Aathif*/
+body {
+  font-family: Times New Roman;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/*main header*/
+.logo-hlink {
+     display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-h {
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.top-bar {
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar .navigation {
+    display: flex;
+    margin: 0 0 0 150px;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-bar .navigation ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar .navigation ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar .navigation ul li a {
+    text-decoration: none;
+    color: #777;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.top-bar .navigation ul li a:hover{
+	color: #333;
+}
+
+.contact-nav{
+    padding: 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cart-icon,
+.profile-icon {
+    display: inline-block;
+    /* Add icon styling, such as icon images or font icons */
+}
+
+.svg-icon {
+  transform: scale(0.5);
+}
+
+.profile-name {
+  text-decoration: none;
+  color: #777;
+  margin-right: 10px;
+}
+
+.profile-name:hover{
+  color:#333;
+}
+
+/*secondary header*/
+#contact-header {
+  background-color: #fff;
+  padding: 20px;
+  padding-bottom: 80px;
+  text-align: center;
+  box-shadow: 0 0 15px -15px rgba(0, 0, 0, 0.15);
+}
+
+#contact-header h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.link-lists {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.link-list li {
+  margin-right: 20px;
+}
+
+.link-list li a{
+  text-decoration: none;
+  color: #777;
+}
+
+.link-list li a:hover{
+  color: #333;
+}
+
+.link-list img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.link-list img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin: 80px 250px 80px 250px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form {
+  width: 50%;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+.contact-image {
+  margin-top: 3px;
+  width:50%;
+  text-align: right;
+  align-items: center;
+  justify-content:flex-end;
+}
+
+.contact-image img {
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+
+/*footer styling*/
+footer {
+  background-color: #DDD;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.logo-f {
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.footer-navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-navigation ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-navigation ul li a {
+  text-decoration: ;
+  color: #333;
+}
+
+.footer-hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social-media {
+	align-self: flex-end;
+}
+.footer-social-media ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social-media ul li {
+  display: inline-block;
+  padding: 0;
+  margin-left: px;
+}
+
+.footer-social-media ul li a {
+  text-decoration: none;
+  color: #333;
+  margin: 0;
+}
+
+.footer-social {
+  transform: scale(0.5);
+}
+
+.footer-copyright {
+  align-self: center;
+  font-size: 12px;
+  color: #777;
+  margin: 0 0 0 160px;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<title>OTS</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	
+</head>
+<body>
+	
+	<header>
+        <div class="top-bar">
+            <a href="index.html" class="logo-hlink"><img src="img/logo.jpeg" alt="Logo" class="logo-h"></a>
+            <nav class="navigation top">
+                <ul>
+                    <li><a href="index.html" class="home-nav">Home</a></li>
+                    <li><a href="collection.html">Collection</a></li>
+                    <li><a href="About Us.html">About</a></li>
+                    <li><a href="contact.php" class="contact-nav">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="cart.php" class="cart-icon"><img src="img/cart.svg" class="svg-icon"></a>
+                <a href="user.php" class="profile-icon"><img src="img/account.svg" class="svg-icon"></a>
+				<!--<a href="#" class="profile-name">Aathif Zahir</a>-->
+            </div>
+        </div>
+    </header>
+
+	<!--Carousel of images-->
+	<div class="carousel">
+		<div class="slide active">
+		  <img src="img/image1.jpg" alt="Image 1">
+		</div>
+		<div class="slide">
+		  <img src="img/image2.jpg" alt="Image 2">
+		</div>
+		<div class="slide">
+		  <img src="img/image3.jpg" alt="Image 3">
+		</div>
+		
+		<ul class="carousel-indicators">
+		  <li class="active" onclick="changeSlide(0)"></li>
+		  <li onclick="changeSlide(1)"></li>
+		  <li onclick="changeSlide(2)"></li>
+		</ul>
+	</div>
+
+	<!--Service section-->
+	<div id="services">
+		<center><h2>Our Services</h2>
+		<p id="services-desc">Welcome to our online tailor store, where we offer personalized services to cater to your unique fashion needs. 
+		Our team of skilled tailors is committed to delivering exceptional craftsmanship and attention to detail. </p></center>
+		<div class="service-container">
+        <div class="service-item">
+            <img src="img/img1.jpg" alt="" id="img1">
+            <div class="service-info">
+                <h3 class="service-title">Service 1</h3>
+                <p class="service-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at volutpat odio. Nullam placerat arcu nec sem venenatis, id sollicitudin neque viverra.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="img/img2.jpg" alt="" id="img2">
+            <div class="service-info">
+                <h3 class="service-title">Service 2</h3>
+                <p class="service-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at volutpat odio. Nullam placerat arcu nec sem venenatis, id sollicitudin neque viverra.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="img/img3.jpg" alt="" id="img3">
+            <div class="service-info">
+                <h3 class="service-title">Service 3</h3>
+                <p class="service-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at volutpat odio. Nullam placerat arcu nec sem venenatis, id sollicitudin neque viverra.</p>
+            </div>
+        </div>
+		</div>
+	</div>
+	
+	<hr class="mid-hr">
+	
+	<!--Collection section-->
+	<div id="collection">
+		<h2><center>Our Collection</center></h2>
+		<div id="collection-container">
+			<div class="product-item"><a href = "NBS_description.php">
+				<img src="img/collection/imgNBSdes.jpg" alt="">
+				<div class="product-info">
+					<a href="" class="product-link"><h3 class="product-title">Navy two-piece<br>stretch suit</h3></a>
+					<p class="product-price">$14.99</p>
+					<p class="product-rating">Rating: 4.7</p></a>
+				</div>
+			</div>
+			<div class="product-item"><a href = "PMS_description.html">
+				<img src="img/collection/img1PMSdes.jpg" alt="">
+				<div class="product-info">
+					<a href="" class="product-link"><h3 class="product-title">Peach melange<br>linen shirt</h3></a>
+					<p class="product-price">$14.99</p>
+					<p class="product-rating">Rating: 4.7</p></a>
+				</div>
+			</div>
+				<div class="product-item"><a href = "GSP_description.html">
+				<img src="img/collection/pant2.jpg" alt="">
+				<div class="product-info">
+					<a href="" class="product-link"><h3 class="product-title">Green stretch<br>pant</h3></a>
+					<p class="product-price">$14.99</p>
+					<p class="product-rating">Rating: 4.7</p></a>
+				</div>
+			</div>
+			<div class="product-item"><a href = "BSS_description.php">
+				<img src="img/collection/img1BSSdes.jpg" alt="">
+				<div class="product-info">
+					<a href="" class="product-link"><h3 class="product-title">Blue two-piece<br>striped suit</h3></a>
+					<p class="product-price">$14.99</p>
+					<p class="product-rating">Rating: 4.7</p></a>
+				</div>
+			</div>
+			<!--<div class="product-item"><a href = "LGS_description.html">
+				<img src="img/collection/img2LGSdes.jpg" alt="">
+				<div class="product-info">
+					<a href="" class="product-link"><h3 class="product-title">Product 5</h3></a>
+					<p class="product-price">$14.99</p>
+					<p class="product-rating">Rating: 4.7</p></a>
+				</div>
+			</div>-->
+			<div class="product-item"><a href = "MS_description.php">
+				<img src="img/collection/imgMSdes.jpg" alt="">
+				<div class="product-info">
+					<a href="" class="product-link"><h3 class="product-title">Burgundy suit</h3></a>
+					<p class="product-price">$14.99</p>
+					<p class="product-rating">Rating: 4.7</p></a>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<footer>
+		<div class="footer-logo">
+			<a href="index.html" class="logo"><img src="img/logo.jpeg" alt="Logo" class="logo-f"></a>
+		</div>
+		<nav class="footer-navigation">
+			<ul>
+				<li><a href="About Us.html">About Us</a></li>
+				<li><a href="contact.php">Contact Us</a></li>
+				<li><a href="FAQpage.html">FAQ</a></li>
+				<li><a href="terms and conditions.html">Terms and Conditions</a></li>
+				<li><a href="privacy_policy.html">Privacy and Cookies</a></li>
+			</ul>
+		</nav>
+		<hr class="footer-hr">
+		<div class="footer-bottom">
+		<div></div>
+		<p class="footer-copyright">
+			&copy; 2022 Brand. All rights reserved.
+		</p>
+		<div class="footer-social-media">
+			<ul>
+				<li><a href="#"><img src="img/facebook.svg" alt="facebook" class="footer-social"></a></li>
+				<li><a href="#"><img src="img/twitter.svg" alt="twitter" class="footer-social"></a></li>
+				<li><a href="#"><img src="img/instagram.svg" alt="instagram" class="footer-social"></a></li>
+			</ul>
+		</div>
+		</div>
+	</footer>
+	
+	<script src="script/script.js"></script>
+
+</body>
+</html>

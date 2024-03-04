@@ -1,0 +1,324 @@
+/*iroshan FAQ*/
+body {
+	 font-family: 'timesnewroman';
+    margin: 0;
+  padding: 0;
+}
+
+.logo-hlink {
+     display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-h {
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.top-bar {
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+    display: flex;
+	justify-content: space-between;
+}
+
+.top-bar .navigation {
+    display: flex;
+    margin: 0;
+    padging: 0;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-bar .navigation ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar .navigation ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar .navigation ul li a {
+    text-decoration: none;
+    color: #777;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.contact-nav{
+    padding: 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cart-icon,
+.profile-icon {
+    display: inline-block;
+    /* Add icon styling, such as icon images or font icons */
+}
+
+.svg-icon {
+  transform: scale(0.5);
+}
+
+.profile-name {
+  text-decoration: none;
+  color: #777;
+}
+
+.top-bar .navigation ul li a:hover{
+	color: black;
+}
+
+footer {
+  background-color: #f5f5f5;
+  position :absolute;
+  top: 1000px;
+  bottom: 0px;
+  left: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-navigation ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-navigation ul li a {
+  text-decoration: ;
+  color: #333;
+}
+
+.footer-hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social-media {
+	align-self: flex-end;
+}
+.footer-social-media ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social-media ul li {
+  display: inline-block;
+  padding: 0;
+  margin-left: px;
+}
+
+.footer-social-media ul li a {
+  text-decoration: none;
+  color: #333;
+  margin: 0;
+}
+
+.footer-social {
+  transform: scale(0.5);
+}
+
+.footer-copyright {
+  align-self: center;
+  font-size: 12px;
+  padding: 0;
+  margin-left: 10px;
+  color: #777;
+}
+
+#slist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#services-desc {
+  margin: 0 200px 0 200px;
+}
+
+.mid-hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 40px 20px;
+}
+
+#collection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-item {
+    overflow: hidden;
+    padding: 0 13px;
+}
+#collection-container .product-item img {
+  width: 100px;
+  height: 100px;
+  margin: 0 30px;
+   object-fit: cover;
+}
+
+.product-info {
+  margin: 0 30px;
+}
+
+.product-link {
+  text-decoration:none;
+  color: black;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 100px;
+}
+
+.service-item {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.service-item img {
+    object-fit: cover;
+  width: 320px;
+  height:320px;
+  margin-top: 30px;
+}
+
+.service-title {
+  margin: 10px 20px 5px 20px;
+  text-align: left;
+}
+
+.service-details {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.services-info {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.logo-f {
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+}
+/*FAQstyles start here*/
+/*containermain*/
+/* Container 6519 */
+.containermain2 {
+  position: absolute; 
+  top: 135px; 
+  left: 0px; 
+  width: 1100px; 
+  height: 835px; 
+  background: #FFFFFFFF; /* white */
+  border-radius: 0px; 
+}
+
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+	text-align: center;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}

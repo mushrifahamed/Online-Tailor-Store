@@ -1,0 +1,266 @@
+/*remove browser style*/
+
+/*variable declaration*/
+:root{
+	
+	
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/suit.jpg");
+  
+  background-position: cover;
+}
+
+
+
+.header-content{
+	width: 95%;
+	margin: auto;
+	display: flex;
+	
+}
+
+.logo img{
+
+	position: absolute; 
+	top: 24px; 
+	left: 32px; 
+	width: 95px; 
+	height: 95px; 
+	border-radius: 4px; /* border-m */
+	
+	
+}
+
+.content{
+	color: white;
+	position: absolute;
+	top: 30%;
+	left : 15%;
+	font-size:30px;
+	font-family: sans-serif;
+}
+
+.content .par{
+	padding-left: 5px;
+	padding-bottom: 20px;
+	font-family: Arial;
+	letter-spacing: 1.2px;
+	line-height: 25px;
+	font-size:15px;
+}
+
+.content h1{
+	font-family: 'Times New Roman';
+	font-size: 50px;
+	padding-left:10px;
+	margin-top:1%;
+	letter-spacing: 2px;
+}
+
+.content span{
+	color: #34495E;
+	font-size:60px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins',sans-serif;
+	
+}
+
+section{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width:100%;
+	background: transparent;
+	background-position: center;
+	background-size;cover;
+}
+
+.form-box{
+	position: absolute;
+	top: 60px;
+	left: 950px;
+	width: 400px;
+	height: 600px;
+	background: transparent;
+	border: 2px solid #95A5A6 (225,225,225,0.5);  
+	border-radius:20px;
+	backdrop-filter: blur(4px);
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+h2{
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	margin-top:16px;
+}
+
+.inputbox{
+	position: relative;
+	margin: 30px 0;
+	width: 310px;
+	border-bottom: 2px solid #FDFEFE;
+}
+
+.inputbox label{
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	transform: translateY(-50%);
+	color: white;
+	font-size: 1em;
+	pointer-events: none;
+	transition: .5s;
+	
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+
+.inputbox input{
+	width: 100%;
+	height:50px;
+	background:transparent;
+	border: none;
+	outline:none;
+	font-size:1em;
+	padding:0 35px 0 5px;
+	color:white;
+}
+
+.inputbox ion-icon{
+	position: absolute;
+	right: 8px;
+	color: #FDFEFE;
+	font-size: 1.2em;
+	top: 20px;
+}
+
+button{
+	width: 100%;
+	height: 40px;
+	border-radius: 40px;
+	background: white;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: 600;
+	
+}
+
+.button button:hover{
+	color:  black;
+}
+
+.button a{
+	text-decoration: none;
+	color: black;
+	/*font-weight: bold;*/
+}
+
+
+.register{
+	font-size: .9em;
+	color: #FDFEFE;
+	text-align: center;
+	margin: 25px 0 10px;
+	
+}
+
+.register p a{
+	text-decoration: none;
+	color: #FDFEFE;
+	font-weight: 600;
+	
+}
+
+.register p a:hover{
+	text-decoration: underline;	
+}
+
+.icon {
+	
+	padding-right: 20px;
+	padding-top: 15px;
+}
+
+
+.icon a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.icon ion-icon{
+	
+	color: #FFFFFF;
+	font-size: 25px;
+	padding-left: 20px;
+	padding-top: 1px;
+	transition: 0.4s ease;
+}
+
+.icon ion-icon:hover{
+	color: #2E4053;
+}
+
+.fname{
+	position: relative;
+	margin: 30px 0;
+	width: 310px;
+	border-bottom: 2px solid #FDFEFE;
+}
+
+.fname label{
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	transform: translateY(-50%);
+	color: white;
+	font-size: 1em;
+	pointer-events: none;
+	transition: .5s;
+	
+}
+
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+
+.lname{
+	position: relative;
+	margin: 30px 0;
+	width: 310px;
+	border-bottom: 2px solid #FDFEFE;
+}
+
+.lname label{
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	transform: translateY(-50%);
+	color: white;
+	font-size: 1em;
+	pointer-events: none;
+	transition: .5s;
+	
+}

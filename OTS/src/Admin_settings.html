@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles/Admin_settings.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <div class="logo">
+                <img src="img/logo.jpeg" alt="Logo">
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="Admin.php">
+                        <img src="img/dashboard.svg" alt="Dashboard Icon">
+                        Dashboard
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="Admin_orders.php">
+                        <img src="img/list.svg" alt="Orders Icon">
+                        Orders
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">
+                        <img src="img/settings.svg" alt="Settings Icon">
+                        Settings
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="dashboard">
+            <h2>Edit Profile</h2>
+				<form method="post" action="">
+					<label for="full_name">Full Name:</label>
+					<input type="text" id="full_name" name="full_name" required><br><br>
+					
+					<label for="phone_number">Phone Number:</label>
+					<input type="tel" id="phone_number" name="phone_number" required><br><br>
+					
+					<input type="reset" value="Reset">
+					<input type="submit" value="Update info">
+				</form>
+			
+			<h2>Security</h2>
+				<form method="post" action="">
+					<label for="current_password">Current Password:</label>
+					<input type="password" id="current_password" name="current_password" required><br><br>
+					
+					<label for="new_password">New Password:</label>
+					<input type="password" id="new_password" name="new_password" required><br><br>
+					
+					<label for="confirm_password">Confirm Password:</label>
+					<input type="password" id="confirm_password" name="confirm_password" required><br><br>
+					
+					<input type="reset" value="Reset">
+					<input type="submit" value="Change Password">
+					
+				</form>
+        </div>
+    </div>
+</body>
+</html>
