@@ -22,11 +22,17 @@ Welcome to the Online Tailor Store project! This web application allows users to
 
 ## Screenshots
 
-![Screenshot1](/images/screenshot1.png)
-*Caption for Screenshot 1*
+![Screenshot (100)](https://github.com/mushrifahamed/Online-Tailor-Store/assets/68167577/1f60a999-fd0f-4244-9510-8f6b9562c285)
 
-![Screenshot2](/images/screenshot2.png)
-*Caption for Screenshot 2*
+![Screenshot (101)](https://github.com/mushrifahamed/Online-Tailor-Store/assets/68167577/ec2b801d-4851-4917-b8ee-0f3e32f4d838)
+
+![Screenshot (102)](https://github.com/mushrifahamed/Online-Tailor-Store/assets/68167577/b3328f4d-d32d-40f0-a862-17bdf46f3a36)
+
+![Screenshot (103)](https://github.com/mushrifahamed/Online-Tailor-Store/assets/68167577/ce7d5d9c-9a93-42f8-9191-65f35bbfa498)
+
+![Screenshot (104)](https://github.com/mushrifahamed/Online-Tailor-Store/assets/68167577/8f8d6e97-8af3-4b1e-840c-4f870d86b3e6)
+
+![Screenshot (105)](https://github.com/mushrifahamed/Online-Tailor-Store/assets/68167577/bed76478-f769-4790-9386-902e655bd2ce)
 
 ## Getting Started
 
